@@ -21,12 +21,12 @@ p {
 .red-color {
   color: #e55473;
 }
-
 .section-title {
   font-size: 30px;
   font-weight: 800;
+  text-align: center;
 }
-.title p {
+.section-title p {
   width: 594px;
   margin: 24px auto 48px auto;
 }
@@ -64,6 +64,7 @@ p {
 
 .hot-deal-container {
   border-radius: 8px;
+  margin-bottom: 128px;
 }
 .hot-deal-content {
   display: flex;
@@ -149,5 +150,14 @@ p {
   font-weight: 600;
   line-height: 35px;
 }
+
+
+/* --------- instagram section ---------- */
+.instagram-image-box {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
 
 /* ------- Footer -------- */
