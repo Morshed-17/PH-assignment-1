@@ -151,13 +151,36 @@ p {
   line-height: 35px;
 }
 
-
 /* --------- instagram section ---------- */
 .instagram-image-box {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 240px;
 }
 
+/* ------------ newsletter section ----------- */
+.newsletter-container {
+  background-image: url("../images/Rectangle\ 9.png");
+  margin: 128px 240px;
+  padding: 122px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+}
+input {
+  width: 700px;
+  padding: 23px 0 22px 22px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+
+}
 
 /* ------- Footer -------- */
