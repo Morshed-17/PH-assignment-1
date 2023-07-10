@@ -16,9 +16,21 @@ p {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
+  line-height: 30px;
+
 }
 .red-color {
   color: #e55473;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: 800;
+}
+.title p {
+    width: 594px;
+    margin: 24px auto 48px auto;
+
 }
 /* --------- Header -------- */
 
@@ -54,7 +66,6 @@ p {
 
 .hot-deal-container {
   border-radius: 8px;
-
 }
 .hot-deal-content {
   display: flex;
@@ -63,7 +74,6 @@ p {
   gap: 186px;
   padding: 100px 0;
   background-color: rgba(229, 84, 115, 0.05);
-
 }
 .hot-deal-text {
   text-align: center;
@@ -76,6 +86,48 @@ p {
   width: 594px;
   padding-top: 24px;
   padding-bottom: 32px;
+}
+/* ------- featured section starts --------- */
+.featured-container {
+  margin: 178px 0px 128px 0px;
+}
+
+.featured-content {
+  text-align: center;
+}
+
+.featured-image-box {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.featured-image-box .img-box {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(167, 33, 98, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.featured-image-box .img-box.second {
+    background: rgba(5, 151, 160, 0.15);
+}
+.featured-image-box .img-box.third {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-image-box .img-box img {
+
+  bottom: 0px;
+}
+.featured-image-box h3 {
+  text-decoration: underline;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-top: 32px;
 }
 
 /* ------- Footer -------- */
