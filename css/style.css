@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/* ------- Shared styles -------- */
+
+h1,
+h2,
+h3,
+h4 {
+  color: #272727;
+}
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+}
+
+/* --------- Header -------- */
+
+.header-container {
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 240px 0 240px;
+}
+.header-content h1 {
+  font-size: 80px;
+  font-weight: 800;
+  width: 708px;
+}
+.header-content p {
+  font-weight: 400;
+  line-height: 30px;
+  padding: 32px 0px;
+  width: 634px;
+
+}
+.btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  background: #E55473;
+  padding: 20px 43px;
+}
+
+/* -------- Main ------- */
+
+/* ------- Footer -------- */
