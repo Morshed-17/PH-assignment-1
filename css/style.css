@@ -15,8 +15,11 @@ h4 {
 p {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
+  font-weight: 400;
 }
-
+.red-color {
+  color: #e55473;
+}
 /* --------- Header -------- */
 
 .header-container {
@@ -36,7 +39,6 @@ p {
   line-height: 30px;
   padding: 32px 0px;
   width: 634px;
-
 }
 .btn {
   color: #fff;
@@ -44,10 +46,36 @@ p {
   font-weight: 700;
   border: none;
   border-radius: 8px;
-  background: #E55473;
+  background: #e55473;
   padding: 20px 43px;
 }
 
 /* -------- Main ------- */
+
+.hot-deal-container {
+  border-radius: 8px;
+
+}
+.hot-deal-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 186px;
+  padding: 100px 0;
+  background-color: rgba(229, 84, 115, 0.05);
+
+}
+.hot-deal-text {
+  text-align: center;
+}
+.hot-deal-text h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.hot-deal-text p {
+  width: 594px;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
 
 /* ------- Footer -------- */
