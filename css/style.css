@@ -22,13 +22,15 @@ p {
   color: #e55473;
 }
 .section-title {
-  font-size: 30px;
-  font-weight: 800;
   text-align: center;
 }
 .section-title p {
   width: 594px;
   margin: 24px auto 48px auto;
+}
+.section-title h2 {
+  font-size: 40px;
+  font-weight: 800;
 }
 /* --------- Header -------- */
 header {
@@ -58,6 +60,11 @@ nav li a {
   color: #272727;
   font-weight: 500;
   font-size: 22px;
+
+}
+.border-bottm-a {
+  border-bottom: 2px solid #272727 ;
+  padding-bottom: 5px;
 }
 .header-container {
   display: flex;
