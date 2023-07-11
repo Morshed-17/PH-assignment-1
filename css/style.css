@@ -31,13 +31,38 @@ p {
   margin: 24px auto 48px auto;
 }
 /* --------- Header -------- */
-
-.header-container {
+header {
   background: rgba(229, 84, 115, 0.1);
+  padding: 50px 240px 0 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+
+}
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  margin-left: 40px;
+
+}
+nav li a {
+  text-decoration: none;
+  color: #272727;
+  font-weight: 500;
+  font-size: 22px;
+}
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 240px 0 240px;
 }
 .header-content h1 {
   font-size: 80px;
