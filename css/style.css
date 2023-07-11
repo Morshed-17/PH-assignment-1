@@ -165,6 +165,7 @@ p {
   padding: 122px 0;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 8px;
 }
 
 form {
@@ -180,7 +181,35 @@ input {
   background: #fff;
   border: none;
 }
-
+/* -------- Orchid section -------- */
+.orchid-container {
+  padding: 0 240px;
+  margin-bottom: 128px;
+}
+.orchid-info-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.orchid-info-box img{
+  border-radius: 8px;
+}
+.orchid-info-box p {
+  width: 634px;
+  margin: 24px 0 32px 0; 
+}
+.orchid-info-box h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.orchid-info-box .btn {
+  margin-right: 20px;
+}
+.transparent-btn {
+  background: transparent;
+  border: 2px solid #e55473;
+  color: #e55473;
+}
 /* ------- Footer -------- */
 footer {
   background-color: #111010;
